@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Courses - CodeAcademy</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial;
+    background:linear-gradient(to right,#0f2027,#203a43,#2c5364);
+    color:white;
+}
+
+header{
+    padding:20px 60px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav a{
+    color:white;
+    margin-left:20px;
+    text-decoration:none;
+}
+
+.section{
+    padding:80px 20px;
+    text-align:center;
+}
+
+.course-container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+    margin-top:40px;
+}
+
+.course{
+    background:rgba(255,255,255,0.1);
+    padding:30px;
+    border-radius:10px;
+    width:250px;
+    transition:0.3s;
+}
+
+.course:hover{
+    transform:translateY(-5px);
+    background:rgba(255,255,255,0.2);
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h2>CodeAcademy</h2>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="register.html">Register</a>
+        <a href="login.html">Login</a>
+    </nav>
+</header>
+
+<div class="section">
+    <h1>Our Premium Courses</h1>
+
+    <div class="course-container">
+        <div class="course">HTML Mastery</div>
+        <div class="course">CSS Advanced</div>
+        <div class="course">Python Bootcamp</div>
+        <div class="course">JavaScript Pro</div>
+    </div>
+</div>
+
+</body>
+</html>
